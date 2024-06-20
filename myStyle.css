@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;500;700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: black;
+}
+
+#mainContainer{
+    position: relative;
+    width: 1420px;
+    margin: 0 auto;
+}
+
+#return{
+    position: relative;
+    width: 1420px;
+    margin: 0 auto;
+}
+
+#return img{
+    width: 50px;
+    height: 50px;
+    float: right;
+    position: fixed;
+    bottom: 20px;
+    right: 40px; 
+    z-index: 999;
+    margin-right: calc(50% - 710px);
+}
+
+#social-phenomenon{
+    padding-top: 70px;
+}
+
+#problem-cause{
+    padding-top: 70px;
+}
+
+#solution{
+    padding-top: 70px;
+}
+
+#intro{
+    scroll-margin-top: 70px;
+
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    z-index: 3;
+    background-color: black;
+    border-bottom: 1px solid aqua;
+}
+
+header img{
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin-left: 30px;
+}
+
+section img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section iframe{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+a{
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover{
+    color: aqua;
+}
+
+.main-navigation{
+    float: right;
+    margin-top: 20px;
+    margin-right: 30px;
+}
+
+.main-navigation a{
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease;
+    margin-left: 40px;
+}
+
+.main-navigation a:hover{
+    color: aqua;
+}
+
+section{
+    position: relative;
+    width: 100%;
+    unicode-bidi: isolate;
+}
+
+.text-wrap{
+    width: 400px;
+    height: 420px;
+    padding: 70px;
+    position: absolute;
+    right: 0;
+    top: calc(50% - 210px);
+    background-color: rgb(0, 0, 0, 0.8);
+    z-index: 1;
+}
+
+.text-wrap h2{
+    color: #fff;
+    font-size: 28px;
+    line-height: 56px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    text-align: right;
+}
+
+.text-wrap h3{
+    color: #d7d7d7;
+    font-size: 28px;
+    line-height: 44px;
+    margin-bottom: 20px;
+    font-weight: normal;
+    text-align: right;
+}
+
+.video-wrap{
+    position: relative;
+    width: 100%;
+}
+
+.video-wrap video{
+    width: 100%;
+}
+
+.image-with-text-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.image-with-text{
+    position: relative;
+    display: inline-block;
+    width: 500px;
+    height: 430px;
+    text-align: left;
+    padding: 0px 30px;
+    margin: 0 auto;
+}
+
+.image-with-text p{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 10px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    max-width: calc(100% - 60px);
+    bottom: 0;
+    left: 30px;
+    right: 30px;
+    text-align: center;
+}
+
+.image-with-text:hover p{
+    opacity: 1;
+}
+
+.image-with-text img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.row{
+    width: 800px;
+    display: flex;
+    margin: auto;
+    padding: 0px 5px;
+    margin-bottom: 30px;
+}
+
+.col-6{
+    width: 100%; 
+    padding: 0px 5px;
+}
+
+h4{
+    color: aqua;
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: normal;
+    text-align: center;
+}
+
+h5{
+    color: aqua;
+    font-size: 18px;
+    line-height: 50px;
+    font-weight: normal;
+    text-align: center;
+}
+
+h6{
+    color: aqua;
+    font-size: 20px;
+    font-weight: normal;
+    text-align: left;
+}
+
+#social-phenomenon h6 {
+    border-bottom: 2px solid aqua; 
+    display: inline-block; 
+    padding-bottom: 4px; 
+}
+
+#problem-cause h6 {
+    border-bottom: 2px solid aqua;
+    display: inline-block;
+    padding-bottom: 4px; 
+}
+
+#solution h6 {
+    border-bottom: 2px solid aqua; 
+    display: inline-block; 
+    padding-bottom: 4px; 
+}
+
+p{
+    color: #fff;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: normal;
+    text-align: left;
+}
+
+.custom-margin {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.h40{
+    height: 40px;
+}
+
+.h50{
+    height: 50px;
+}
+
+.h60{
+    height: 60px;
+}
+
+.h70{
+    height: 70px;
+}
+
+.h100{
+    height: 100px;
+}
+
+footer p{
+    padding: 30px 5px;
+    text-align: center;
+}
+
+#footer{
+    margin-bottom: 0px;
+}
+
+footer{
+    margin-left: 20px;
+}
